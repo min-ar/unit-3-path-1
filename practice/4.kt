@@ -1,0 +1,5 @@
+package practice
+fun main(){
+    val shortEvents = events.filter { it.durationInMinutes < 60 }
+    println("You have ${shortEvents.size} short events.")
+}
